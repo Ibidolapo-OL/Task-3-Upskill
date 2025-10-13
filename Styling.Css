@@ -2,18 +2,20 @@
      margin: 0px;
      border: 0px;
      padding: 0px;
+     box-sizing: border-box;
 }
+
 body{
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif, sans-serif;
     line-height: 1.6;
-    color:rgb(153, 100, 100);
+    color:white;
     font-size: 1.2em;
 }
 
-.navbar{
+.nav{
     position: sticky;
     top:0;
-    background-color: rgb(118, 47, 115);
+    background-color:rgb(56, 127, 56);
     padding: 20px;
     line-height: 1.8rem;
     text-align: center;
@@ -22,19 +24,20 @@ body{
 h1{
     border: 1px;
     padding: 10px;
-    color:#920c22;
+    color:#be2ecb;
+    text-align: center;
 }
 
 .google-link{
     text-decoration: none;
-    color:rgb(5, 48, 121);
+    color:white
 }
 
 .flex-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(57, 18, 198);
+    background-color: rgb(29, 51, 83);
 }
 
 .flex-container
@@ -59,9 +62,9 @@ a:hover{
     width: 300px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(108, 2, 2);
+    background-color: rgb(190, 12, 12);
     padding: 10px;
-    color:#1b2c6f;
+    color:#ffffff;
 }
 
 
@@ -90,9 +93,9 @@ a:hover{
 
 footer{
     text-align: center;
-    background-color: rgb(16, 137, 7);
+    background-color: rgb(29, 51, 83);
     padding: 20px;
-    color: #989494;
+    color: #b4adb3;
 }
 
 @media(max-width:567px){
